@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaUser } from "react-icons/fa";
+import { FaRegFlag, FaUser } from "react-icons/fa";
 import { FcRating } from "react-icons/fc";
 
 const Card = ({
@@ -35,7 +35,7 @@ const Card = ({
   const isButtonDisabled = isSelected || isAlreadySelected;
 
   return (
-    <div className="card bg-base-300 shadow-sm p-6">
+    <div className="card bg-base-200 shadow-sm p-6">
       <figure className="px-4 pt-4">
         <img
           className="w-[376px]
@@ -52,7 +52,9 @@ const Card = ({
 
       {/* type and playerCountry */}
       <div className="flex justify-between items-center">
-        <span className="text-gray-600">{player.playerCountry}</span>
+        <span className="text-gray-600 flex items-center gap-3">
+          <FaRegFlag /> {player.playerCountry}
+        </span>
         <span className="badge badge-outline">{player.playerType}</span>
       </div>
 

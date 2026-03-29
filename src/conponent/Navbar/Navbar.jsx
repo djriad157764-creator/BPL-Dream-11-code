@@ -1,10 +1,11 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
 import Currency from "../../assets/Currency.png";
+import ThemeSwitcher from "../ThemeSwitcher";
 
-const Navbar = ({coin}) => {
+const Navbar = ({ coin }) => {
   return (
-    <div className="navbar w-full max-w-[1320px] mx-auto justify-between  bg-base-100 shadow-sm px-4">
+    <div className="navbar w-full sticky top-0 z-10 max-w-[1320px] mx-auto justify-between  bg-transparent backdrop-blur-xl shadow-sm px-4">
       <div className="flex items-center">
         <img className="w-[73px] h-auto" src={Logo} alt="Navbar Image" />
       </div>
@@ -23,6 +24,7 @@ const Navbar = ({coin}) => {
             <a href="#">Schedules</a>
           </li>
         </ul>
+        <ThemeSwitcher></ThemeSwitcher>
         <div className="flex  items-center gap-2.5 py-4 px-5 border-2 border-neutral/10 rounded-xl">
           <p className="font-bold text-xl">
             <span className="mr-2.5">${coin}</span>Coin

@@ -7,14 +7,24 @@ const SelectedPlayer = ({
   setSelectionPlayer,
   setCoin,
   coin,
+  clickedBtn,
+  setClickedBtn,
 }) => {
   if (selectionPlayer.length === 0) {
     return (
-      <div className="text-center py-12 bg-base-100 rounded-xl">
-        <p className="text-gray-500 text-lg">No players selected yet</p>
-        <p className="text-gray-400 text-sm mt-2">
-          👈 Go to Available Players and build your dream team!
-        </p>
+      <div className="">
+        <div className="text-center py-12 bg-base-100 rounded-xl">
+          <p className="text-gray-500 text-lg">No players selected yet</p>
+          <p className="text-gray-400 text-sm mt-2">
+            👈 Go to Available Players and build your dream team!
+          </p>
+        </div>
+        <button
+          onClick={() => setClickedBtn("available")}
+          className="text-[#131313] rounded-lg btn mx-auto justify-center flex bg-[#E7FE29] mt-5"
+        >
+          Add More Player
+        </button>
       </div>
     );
   }
@@ -30,6 +40,14 @@ const SelectedPlayer = ({
           player={player}
         ></SelectedPlayerCard>
       ))}
+      <div>
+        <button
+          onClick={() => setClickedBtn("available")}
+          className="text-[#131313] rounded-lg btn bg-[#E7FE29] mt-5"
+        >
+          Add More Player
+        </button>
+      </div>
     </div>
   );
 };
