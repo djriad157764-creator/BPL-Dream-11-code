@@ -1,6 +1,7 @@
 import React from "react";
 import { FaUser } from "react-icons/fa";
 import { RiDeleteBin6Line } from "react-icons/ri";
+import { toast } from "react-toastify";
 
 const SelectedPlayerCard = ({
   player,
@@ -14,6 +15,7 @@ const SelectedPlayerCard = ({
       (DPlayer) => DPlayer.playerName !== player.playerName,
     );
     setSelectionPlayer(updatedPlayers);
+    toast.warning(`${player.playerName} Remove from Cart`)
     setCoin(coin + player.playerPrice);
   };
 
@@ -22,7 +24,7 @@ const SelectedPlayerCard = ({
       <div className="flex items-center gap-4">
         <div className="bg-amber-200 rounded-2xl">
           <img
-            className="w-20 h-20"
+            className="w-20 h-20 object-cover rounded-xl"
             src={player.playerImage}
             alt="player Image"
           />

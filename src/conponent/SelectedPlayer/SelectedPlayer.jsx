@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SelectedPlayerCard from "./SelectedPlayerCard";
 import Players from "../home/Players/Players";
+import { toast } from "react-toastify";
 
 const SelectedPlayer = ({
   selectionPlayer,
@@ -10,6 +11,14 @@ const SelectedPlayer = ({
   clickedBtn,
   setClickedBtn,
 }) => {
+  useEffect(() => {
+    if (selectionPlayer.length === 0) {
+      toast.info("Cart is Empty! Please Add Player", {
+        position: "bottom-center",
+        autoClose: 2000,
+      });
+    }
+  }, [selectionPlayer.length]);
   if (selectionPlayer.length === 0) {
     return (
       <div className="">

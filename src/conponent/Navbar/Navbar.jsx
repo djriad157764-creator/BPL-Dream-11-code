@@ -25,7 +25,7 @@ const Navbar = ({ coin }) => {
           </li>
         </ul>
         <ThemeSwitcher></ThemeSwitcher>
-        <div className="flex  items-center gap-2.5 py-4 px-5 border-2 border-neutral/10 rounded-xl">
+        <div className="flex  items-center text-yellow-700 gap-2.5 py-4 px-5 border-2 border-neutral/10 rounded-xl">
           <p className="font-bold text-xl">
             <span className="mr-2.5">${coin}</span>Coin
           </p>

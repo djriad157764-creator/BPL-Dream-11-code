@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaRegFlag, FaUser } from "react-icons/fa";
 import { FcRating } from "react-icons/fc";
+import { toast } from "react-toastify";
 
 const Card = ({
   player,
@@ -23,11 +24,12 @@ const Card = ({
 
     if (coin >= player.playerPrice) {
       setIsSelected(true);
-      alert(`${player.playerName} selected`);
+      toast.success(`${player.playerName} selected`);
       setCoin(coin - player.playerPrice);
       setSelectionPlayer([...selectionPlayer, player]);
+
     } else {
-      alert(`Not enough Coin! Need $${player.playerPrice - coin} more.`);
+      toast.error(`Not enough Coin! Need $${player.playerPrice - coin} more.`);
     }
   };
 
@@ -36,10 +38,10 @@ const Card = ({
 
   return (
     <div className="card bg-base-200 shadow-sm p-6">
-      <figure className="px-4 pt-4">
+      <figure className=" mb-5">
         <img
           className="w-[376px]
-              h-60 object-contain rounded-lg"
+              h-56 object-cover rounded-lg"
           src={player.playerImage}
           alt={player.playerName}
         />
@@ -70,8 +72,8 @@ const Card = ({
 
       {/* battingStyle and bollingStyle */}
       <div className="flex justify-between items-center mb-3">
-        <span className="badge badge-ghost">{player.battingStyle}</span>
-        <span className="badge badge-ghost">{player.bollingStyle}</span>
+        <span className=" badge-ghost text-start">{player.battingStyle}</span>
+        <span className=" badge-ghost">{player.bollingStyle}</span>
       </div>
       <div className="flex justify-between items-center ">
         <p>${player.playerPrice}</p>
