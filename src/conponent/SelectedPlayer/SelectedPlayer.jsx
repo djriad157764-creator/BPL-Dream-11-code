@@ -8,13 +8,12 @@ const SelectedPlayer = ({
   setSelectionPlayer,
   setCoin,
   coin,
-  clickedBtn,
   setClickedBtn,
 }) => {
   useEffect(() => {
     if (selectionPlayer.length === 0) {
       toast.info("Cart is Empty! Please Add Player", {
-        position: "bottom-center",
+        position: "top-right",
         autoClose: 2000,
       });
     }
