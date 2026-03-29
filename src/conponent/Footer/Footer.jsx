@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="bg-[#06091A] relative flex-col mt-10 flex items-center justify-center">
       <div
         className="w-full 
-       lg:w-[1292px] absolute -top-40 p-5 bg-white/10 rounded-2xl h-[344px] flex justify-center items-center mx-auto"
+       lg:w-[1292px] absolute -top-40 p-5 border-2 border-neutral/10 bg-white/10 rounded-2xl h-[344px] flex justify-center items-center mx-auto"
       >
         <div
           style={{
