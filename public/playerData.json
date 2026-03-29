@@ -1,0 +1,202 @@
+[
+  {
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerPrice": 15,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "Right-arm medium",
+    "playerImage": "https://i.ibb.co.com/tTtzY246/i.jpg",
+    "playerType": "Batsman",
+    "playerRating": 9.8
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerPrice": 14,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "Right-arm offbreak",
+    "playerImage": "https://example.com/images/babar-azam.jpg",
+    "playerType": "Batsman",
+    "playerRating": 9.5
+  },
+  {
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerPrice": 18,
+    "battingStyle": "Left-hand bat",
+    "bollingStyle": "Right-arm fast-medium",
+    "playerImage": "https://example.com/images/ben-stokes.jpg",
+    "playerType": "All-rounder",
+    "playerRating": 9.6
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerPrice": 1600000,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "Right-arm legbreak",
+    "playerImage": "https://example.com/images/rashid-khan.jpg",
+    "playerType": "Bowler",
+    "playerRating": 9.4
+  },
+  {
+    "playerName": "Jos Buttler",
+    "playerCountry": "England",
+    "playerPrice": 1700000,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "N/A",
+    "playerImage": "https://example.com/images/jos-buttler.jpg",
+    "playerType": "Wicketkeeper",
+    "playerRating": 9.3
+  },
+  {
+    "playerName": "Rohit Sharma",
+    "playerCountry": "India",
+    "playerPrice": 1450000,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "Right-arm offbreak",
+    "playerImage": "https://example.com/images/rohit-sharma.jpg",
+    "playerType": "Batsman",
+    "playerRating": 9.2
+  },
+  {
+    "playerName": "David Warner",
+    "playerCountry": "Australia",
+    "playerPrice": 1350000,
+    "battingStyle": "Left-hand bat",
+    "bollingStyle": "Right-arm legbreak",
+    "playerImage": "https://example.com/images/david-warner.jpg",
+    "playerType": "Batsman",
+    "playerRating": 9.1
+  },
+  {
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerPrice": 1500000,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "Right-arm offbreak",
+    "playerImage": "https://example.com/images/kane-williamson.jpg",
+    "playerType": "Batsman",
+    "playerRating": 9.4
+  },
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerPrice": 1550000,
+    "battingStyle": "Left-hand bat",
+    "bollingStyle": "Left-arm orthodox",
+    "playerImage": "https://i.ibb.co.com/tTtzY246/i.jpg",
+    "playerType": "All-rounder",
+    "playerRating": 9.5
+  },
+  {
+    "playerName": "Jasprit Bumrah",
+    "playerCountry": "India",
+    "playerPrice": 1650000,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "Right-arm fast",
+    "playerImage": "https://example.com/images/jasprit-bumrah.jpg",
+    "playerType": "Bowler",
+    "playerRating": 9.7
+  },
+  {
+    "playerName": "Mitchell Starc",
+    "playerCountry": "Australia",
+    "playerPrice": 1600000,
+    "battingStyle": "Left-hand bat",
+    "bollingStyle": "Left-arm fast",
+    "playerImage": "https://example.com/images/mitchell-starc.jpg",
+    "playerType": "Bowler",
+    "playerRating": 9.3
+  },
+  {
+    "playerName": "Trent Boult",
+    "playerCountry": "New Zealand",
+    "playerPrice": 1500000,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "Left-arm fast-medium",
+    "playerImage": "https://example.com/images/trent-boult.jpg",
+    "playerType": "Bowler",
+    "playerRating": 9.2
+  },
+  {
+    "playerName": "MS Dhoni",
+    "playerCountry": "India",
+    "playerPrice": 1300000,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "N/A",
+    "playerImage": "https://example.com/images/ms-dhoni.jpg",
+    "playerType": "Wicketkeeper",
+    "playerRating": 9.6
+  },
+  {
+    "playerName": "Quinton de Kock",
+    "playerCountry": "South Africa",
+    "playerPrice": 1400000,
+    "battingStyle": "Left-hand bat",
+    "bollingStyle": "N/A",
+    "playerImage": "https://example.com/images/quinton-de-kock.jpg",
+    "playerType": "Wicketkeeper",
+    "playerRating": 9.1
+  },
+  {
+    "playerName": "Hardik Pandya",
+    "playerCountry": "India",
+    "playerPrice": 1700000,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "Right-arm fast-medium",
+    "playerImage": "https://example.com/images/hardik-pandya.jpg",
+    "playerType": "All-rounder",
+    "playerRating": 9.4
+  },
+  {
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playerPrice": 1750000,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "Right-arm fast",
+    "playerImage": "https://example.com/images/andre-russell.jpg",
+    "playerType": "All-rounder",
+    "playerRating": 9.5
+  },
+  {
+    "playerName": "Mushfiqur Rahim",
+    "playerCountry": "Bangladesh",
+    "playerPrice": 1250000,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "N/A",
+    "playerImage": "https://example.com/images/mushfiqur-rahim.jpg",
+    "playerType": "Wicketkeeper",
+    "playerRating": 9.0
+  },
+  {
+    "playerName": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playerPrice": 1200000,
+    "battingStyle": "Left-hand bat",
+    "bollingStyle": "N/A",
+    "playerImage": "https://example.com/images/tamim-iqbal.jpg",
+    "playerType": "Batsman",
+    "playerRating": 8.9
+  },
+  {
+    "playerName": "Faf du Plessis",
+    "playerCountry": "South Africa",
+    "playerPrice": 1350000,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "Right-arm legbreak",
+    "playerImage": "https://example.com/images/faf-du-plessis.jpg",
+    "playerType": "Batsman",
+    "playerRating": 9.2
+  },
+  {
+    "playerName": "Glenn Maxwell",
+    "playerCountry": "Australia",
+    "playerPrice": 1650000,
+    "battingStyle": "Right-hand bat",
+    "bollingStyle": "Right-arm offbreak",
+    "playerImage": "https://example.com/images/glenn-maxwell.jpg",
+    "playerType": "All-rounder",
+    "playerRating": 9.3
+  }
+]
